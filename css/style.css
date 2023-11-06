@@ -1,0 +1,10 @@
+.block{
+    display: grid;
+    grid-template-columns: repeat(6, 2fr);
+    width: 800px;
+}
+.block div{
+    height: 100px;
+    width: 200px;
+    text-align: center;
+}
